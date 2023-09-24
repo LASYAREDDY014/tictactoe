@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+    font-family: 'Pacifico', cursive;
+}
+
+h1 {
+    margin: 50px 0 50px 0;
+    font-size: 5rem;
+    color: rgb(230, 15, 15);
+    -webkit-text-stroke: .5px black;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+button {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 30px;
+}
+
+#cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn {
+
+    font-size: 2rem;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin: 0;
+    background-color: rgb(206, 203, 203);
+    border-radius: 10px;
+    font-family: 'Finger Paint', cursive;
+
+}
+
+#find {
+    padding: 10px 20px;
+border-radius: 10px;
+background-color: var(--orange);
+color: #333;
+border-color:#6dbcc8;
+font-size: 18px;
+transition: 200ms transform;
+font-weight: 600;
+
+}
+#find:hover{
+    cursor: pointer;
+transform: translateY(-4px);
+}
+
+.btn:hover {
+    background-color: rgb(226, 228, 230);
+    cursor: pointer;
+transform: translateY(-4px);
+}
+
+button.enabled {
+    opacity: 1;
+}
+
+p {
+    font-size: 2rem;
+}
