@@ -4,17 +4,17 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(13, 13, 13);
     display: grid;
     place-items: center;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Vollkorn SC', cursive;
 }
 
 h1 {
     margin: 50px 0 50px 0;
     font-size: 5rem;
-    color: rgb(230, 15, 15);
-    -webkit-text-stroke: .5px black;
+    color: rgb(249, 116, 7);
+    -webkit-text-stroke: .5px rgb(5, 5, 5);
 }
 
 input {
@@ -44,7 +44,7 @@ img {
     height: 100px;
     cursor: pointer;
     margin: 0;
-    background-color: rgb(206, 203, 203);
+    background-color: rgb(236, 152, 7);
     border-radius: 10px;
     font-family: 'Finger Paint', cursive;
 
@@ -54,8 +54,8 @@ img {
     padding: 10px 20px;
 border-radius: 10px;
 background-color: var(--orange);
-color: #333;
-border-color:#6dbcc8;
+color: #f17508;
+border-color:#c9b011;
 font-size: 18px;
 transition: 200ms transform;
 font-weight: 600;
@@ -65,9 +65,12 @@ font-weight: 600;
     cursor: pointer;
 transform: translateY(-4px);
 }
+#enterName {
+    color: azure;
+}
 
 .btn:hover {
-    background-color: rgb(226, 228, 230);
+    background-color: rgb(240, 200, 160);
     cursor: pointer;
 transform: translateY(-4px);
 }
@@ -78,5 +81,6 @@ button.enabled {
 
 p {
     font-size: 2rem;
+    color: azure;
 }
 
